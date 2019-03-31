@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.autoride.driver.documents.DriverDocumentActivity">
+
+    <ViewFlipper
+        android:id="@+id/view_flipper_driver_documents"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/vf_driver_document_settings" />
+
+        <include layout="@layout/vf_driver_vehicle_photo" />
+
+        <include layout="@layout/vf_driver_licence" />
+
+        <include layout="@layout/vf_driver_vehicle_insurance" />
+
+        <include layout="@layout/vf_driver_blue_book" />
+
+        <include layout="@layout/vf_tax_token" />
+
+        <include layout="@layout/vf_vehicle_info" />
+
+    </ViewFlipper>
+</android.support.constraint.ConstraintLayout>

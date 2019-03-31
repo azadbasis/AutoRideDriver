@@ -1,0 +1,569 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name" translatable="false">Auto Ride Driver</string>
+    <string name="action_settings">Settings</string>
+    <string name="toolbar_driver" translatable="false">Driver</string>
+
+    <string name="google_direction_api_key" translatable="false">AIzaSyDPozXePdt2JYOjbUatm2FG-UEptQ_VZxs</string>
+
+    <string name="what_s_your_email_address">What\'s your email Address?</string>
+    <string name="what_s_your_phone">What\'s your phone number?</string>
+    <string name="hint_email">Enter your email (Optional)</string>
+    <string name="hint_enter_your_number">Enter phone number</string>
+    <string name="whats_s_your_name">What\'s your name?</string>
+    <string name="enter_your_email_address">Enter Your Email Address</string>
+    <string name="enter_your_mobile_number">Enter your Mobile Number</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="enter_new_your_password">Enter your new password</string>
+    <string name="enter_promo_code">Enter promotion code</string>
+    <string name="what_s_your_password">What\'s your password?</string>
+    <string name="reg_password">Make your account password</string>
+    <string name="reset_your_account_password">Make your new password</string>
+    <string name="promo_code">Promotion Code</string>
+    <string name="label_enter_the_verification_code">Enter the verification code sent to you</string>
+    <string name="label_just_a_ride" translatable="false">Just A Ride</string>
+    <string name="label_more_than" translatable="false">More Than</string>
+    <string name="label_not_available" translatable="false">N/A</string>
+    <string name="label_select" translatable="false">Select :</string>
+    <string name="login">Login</string>
+    <string name="loginwelcome">LOGIN</string>
+    <string name="max_size" translatable="false">Max Size</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="profile_edit">Profile</string>
+    <string name="name_edit">Name</string>
+    <string name="email">Email</string>
+    <string name="email_edit">Email</string>
+    <string name="mobile">Mobile</string>
+    <string name="mobile_edit">Mobile</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="register">REGISTER</string>
+    <string name="skip" translatable="false">Skip</string>
+    <string name="resend_code_in" translatable="false">Re send code in</string>
+    <string name="enter_the_4_digit_code_sent_to_you" translatable="false">Enter the 4-digit code sent to you</string>
+    <string name="with_you_when_you_want_to_keep_n_moving_forward" translatable="false">With you When You Want To Keep</string>
+    <string name="at" translatable="false">at</string>
+    <string name="places" translatable="false">Places</string>
+    <string name="add_home" translatable="false">Add Home</string>
+    <string name="add_work" translatable="false">Add Work</string>
+    <string name="enter_the_promo_code" translatable="false">Enter the Promo Code</string>
+    <string name="add_code" translatable="false">ADD CODE</string>
+    <string name="choose_an_action" translatable="false">Choose an action</string>
+    <string name="camera" translatable="false">Camera</string>
+    <string name="gallery" translatable="false">Gallery</string>
+
+    <string name="_4_people" translatable="false">4 People</string>
+    <string name="_60" translatable="false">र 60</string>
+    <string name="amount">Amount</string>
+    <string name="amount_trip_list">Amount</string>
+    <string name="base_fare">Base Fare</string>
+    <string name="base_fare_receipt">Base Fare</string>
+    <string name="base_rate">Base rate</string>
+    <string name="btn_cancel">CANCEL</string>
+    <string name="btn_dismiss">Dismiss</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_retry">Retry</string>
+    <string name="btn_save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="cancelled">Canceled</string>
+    <string name="car_quality" translatable="false">Car Quality</string>
+    <string name="car_quality_bad_remark" translatable="false">Car Quality</string>
+    <string name="carname" translatable="false">CarName</string>
+    <string name="cash" translatable="false">Cash</string>
+    <string name="cash_help_page" translatable="false">Cash:</string>
+    <string name="cash_receipt" translatable="false">Cash</string>
+    <string name="cash_trip_details" translatable="false">Cash</string>
+    <string name="cash_trip_list" translatable="false">Cash</string>
+    <string name="cleanliness" translatable="false">Cleanliness</string>
+    <string name="cleanliness_bad_remark" translatable="false">Cleanliness</string>
+    <string name="comfort" translatable="false">Comfort</string>
+    <string name="comfort_bad_remark" translatable="false">Comfort</string>
+    <string name="Confirmation" translatable="false">confirmation</string>
+    <string name="contact" translatable="false">Contact</string>
+    <string name="date" translatable="false">Date</string>
+    <string name="destination_required" translatable="false">Destination Required</string>
+    <string name="details" translatable="false">Details</string>
+    <string name="done" translatable="false">Done</string>
+    <string name="drawer_close" translatable="false">1</string>
+    <string name="drawer_open" translatable="false">1</string>
+    <string name="driver_name" translatable="false">Driver name</string>
+    <string name="driving" translatable="false">Driving</string>
+    <string name="driving_bad_remark" translatable="false">Driving</string>
+    <string name="edit_account" translatable="false">Edit Account</string>
+    <string name="edit_account_toolbar" translatable="false">Edit Account</string>
+    <string name="enter_destination" translatable="false">Enter Destination</string>
+    <string name="eta" translatable="false">ETA</string>
+    <string name="excellent" translatable="false">Excellent</string>
+    <string name="feedback_bad_car_quality" translatable="false">Car Quality</string>
+    <string name="feedback_bad_cleanliness" translatable="false">Cleanliness</string>
+    <string name="feedback_bad_comfort" translatable="false">Comfort</string>
+    <string name="feedback_bad_driving" translatable="false">Driving</string>
+    <string name="feedback_bad_other" translatable="false">Other</string>
+    <string name="feedback_bad_service" translatable="false">Service</string>
+    <string name="feedback_good_car_quality" translatable="false">Car Quality</string>
+    <string name="feedback_good_cleanliness" translatable="false">Cleanliness</string>
+    <string name="feedback_good_comfort" translatable="false">Comfort</string>
+    <string name="feedback_good_driving" translatable="false">Driving</string>
+    <string name="feedback_good_other" translatable="false">Other</string>
+    <string name="feedback_good_service" translatable="false">Service</string>
+    <string name="free_rides" translatable="false">Free Rides</string>
+    <string name="get_fare_estimate" translatable="false">Get Fare Estimate</string>
+    <string name="give_friends_free_ride_credit_to_try_la_taxi_you_ll_get_50_off_each_off_your_next_2_rides_when_they_start_riding" translatable="false">Give friends free ride credit to try la taxi. You\'ll get र50 off each off your next 2 rides when they start riding.</string>
+    <string name="home" translatable="false">Add Home</string>
+    <string name="i_had_an_issue_with_reciept_or_payment" translatable="false">I had an issue with reciept or payment</string>
+    <string name="i_lost_an_item" translatable="false">I Lost an item</string>
+    <string name="i_was_incorrectly_charged_cancellation_fee" translatable="false">I was incorrectly charged cancellation fee</string>
+    <string name="i_would_like_a_refund" translatable="false">I would like a refund</string>
+    <string name="invite_friends" translatable="false">Invite Friends</string>
+    <string name="kilometer_rate" translatable="false">Kilometer rate</string>
+    <string name="kilometers" translatable="false">Kilometers</string>
+    <string name="kilometers_receipt" translatable="false">Kilometers</string>
+    <string name="la_go" translatable="false">la GO</string>
+    <string name="la_l" translatable="false">la xl</string>
+    <string name="la_taxi" translatable="false">la taxi</string>
+    <string name="la_taxi_login" translatable="false">la taxi</string>
+    <string name="la_xxl" translatable="false">la xxl</string>
+
+    <string name="min_fare" translatable="false">Min Fare</string>
+    <string name="minute_rate" translatable="false">Minute rate</string>
+    <string name="minutes" translatable="false">Minutes</string>
+    <string name="minutes_receipt" translatable="false">Minutes</string>
+
+    <string name="my_driver_was_unprofessional" translatable="false">My driver was Unprofessional</string>
+    <string name="my_vehicle_wasn_t_what_i_expected" translatable="false">My vehicle wasn\'t what i expected</string>
+    <string name="name" translatable="false">Name</string>
+
+    <string name="name_example_com" translatable="false">name@example.com</string>
+    <string name="name_example_com_drawer" translatable="false">name@example.com</string>
+    <string name="name_help_page" translatable="false">Name</string>
+    <string name="name_settings" translatable="false">Name</string>
+    <string name="no_network_available" translatable="false">No Internet Connection "\n" "\n" Please check your internet connection and Try again !</string>
+    <string name="location_disable" translatable="false">GPS connection is disable "\n" "\n" Please enable your GPS connection !</string>
+    <string name="no_trips_taken_yet" translatable="false">No trips Taken Yet</string>
+    <string name="number" translatable="false">number</string>
+    <string name="ok" translatable="false">OK</string>
+    <string name="other" translatable="false">Other</string>
+    <string name="other_bad_remark" translatable="false">Other</string>
+    <string name="payment" translatable="false">payment</string>
+    <string name="pickup_location" translatable="false">Pickup Location</string>
+
+    <string name="please_take_a_few_moments_to_give_us_feedback_on_your_recent_ride_with_the_la_taxi_driver" translatable="false">Please take a few moments to give us feedback on your recent ride with the la taxi Driver</string>
+    <string name="please_take_a_few_moments_to_give_us_feedback_on_your_recent_ride_with_the_la_taxi_driver_bad_feedback" translatable="false">Please take a few moments to give us feedback on your recent ride with the la taxi Driver</string>
+    <string name="profile" translatable="false">Profile</string>
+
+    <string name="promotion" translatable="false">Promotion</string>
+    <string name="promotion_rate" translatable="false">Promotion rate</string>
+    <string name="promotion_receipt" translatable="false">Promotion</string>
+    <string name="promotions" translatable="false">Promotions</string>
+    <string name="rate" translatable="false">RATE \n YOUR TRIP</string>
+    <string name="re_send_code_in" translatable="false">Re send code in</string>
+    <string name="receipt" translatable="false">Receipt</string>
+
+    <string name="request_la" translatable="false">Request LA</string>
+    <string name="requesting" translatable="false">Requesting...</string>
+
+    <string name="sample_lorem_ipsum_small" translatable="false">lorem ipsum small</string>
+    <string name="say_thanks" translatable="false">Say Thanks!</string>
+    <string name="say_thanks_good" translatable="false">Say Thanks!</string>
+    <string name="search_or_type_a_location_here" translatable="false">Search or Type a Location here</string>
+    <string name="service" translatable="false">Service</string>
+    <string name="service_bad_remark" translatable="false">Service</string>
+    <string name="set_pickup_location" translatable="false">Set Pickup Location</string>
+    <string name="settings" translatable="false">Settings</string>
+    <string name="settings_layout_drawer" translatable="false">Settings</string>
+    <string name="share_your_invite_code" translatable="false">Share your invite code</string>
+
+    <string name="sign_up">SIGN UP !</string>
+
+    <string name="btn_refresh" translatable="false">Refresh</string>
+    <string name="btn_settings">Settings</string>
+    <string name="btn_document">Documents</string>
+    <string name="btn_reset_password">Reset Password</string>
+
+    <string name="source" translatable="false">Source</string>
+    <string name="sub_total" translatable="false">Sub Total</string>
+    <string name="sub_total_receipt" translatable="false">Sub Total</string>
+    <string name="submit" translatable="false">Submit</string>
+    <string name="submit_bad_remark" translatable="false">Submit</string>
+    <string name="submit_driver_good" translatable="false">Submit</string>
+    <string name="subtotal_rate" translatable="false">Subtotal rate</string>
+    <string name="the_given_destination_is_out_of_the_service_area" translatable="false">The given Destination is out of the Service Area!.....</string>
+
+    <string name="total_fare" translatable="false">Total Fare</string>
+    <string name="total_rate" translatable="false">Total rate</string>
+    <string name="trip_list" translatable="false">Trips</string>
+    <string name="tripcancelled" translatable="false">Trip  Cancelled</string>
+    <string name="trips" translatable="false">Trips</string>
+    <string name="type_here" translatable="false">Type here</string>
+    <string name="user_name" translatable="false">User name</string>
+    <string name="username" translatable="false">Username</string>
+    <string name="web_error_msg" translatable="false">Unable to connect to the server. Please try again later</string>
+
+    <string name="what_went_well" translatable="false">WHAT WENT WELL?</string>
+    <string name="what_went_wrong" translatable="false">WHAT WENT WRONG?</string>
+
+    <string name="work" translatable="false">Add Work</string>
+    <string name="your_fare_may_change_if_you_update_your_destination_or_make_multiple_stops" translatable="false">Your fare may change if you Update your destination or make multiple stops</string>
+    <string name="your_lataxi_fare_is" translatable="false">Your LaTaxi Fare is</string>
+    <string name="your_past_trips" translatable="false">Your Past Trips</string>
+    <string name="your_trip" translatable="false">YOUR TRIP</string>
+
+    <string name="title" translatable="false">TITLE</string>
+    <string name="title_activity_pick_up_location" translatable="false">PickUpLocationActivity</string>
+    <string name="title_mobile_verification" translatable="false">Mobile Verification</string>
+
+    <string name="message_email_is_required">Email is required</string>
+    <string name="address_is_required">Minimum one field is required</string>
+    <string name="message_enter_a_valid_email_address">Enter a valid email</string>
+    <string name="message_invalid_verification_code">Invalid Verification Code. Please Try Again!</string>
+    <string name="message_is_already_registered">is already registered. Please try again with another number</string>
+    <string name="first_name_is_required">First name is required</string>
+    <string name="first_name2">First Name is too small</string>
+    <string name="first_name3">First Name is too long</string>
+    <string name="promo_code_required">Promotion Code is required</string>
+    <string name="last_name_is_required">Last name is required</string>
+    <string name="last_name2">Last Name is too small</string>
+    <string name="last_name3">Last Name is too long</string>
+    <string name="message_no_driver_available" translatable="false">No Driver is Available. Please try again later</string>
+    <string name="message_password_is_required">Password is required</string>
+    <string name="current_pass">Current password is required</string>
+    <string name="new_pass">New password is required</string>
+    <string name="did_not_match" translatable="false">New and retype password don\'t match</string>
+    <string name="message_password_minimum_character">Password should be in 6 to 20 characters</string>
+    <string name="new_password_minimum_character">New password should be in 6 to 20 characters</string>
+    <string name="message_phone_number_is_required">Phone number is required</string>
+    <string name="message_valid_login_phone">You enter invalid phone number. Please try again with another number</string>
+    <string name="message_phone_verification_failed" translatable="false">Phone Number Verification Failed. Please Try Again</string>
+    <string name="message_phone_verified_successfully" translatable="false">Your Mobile Number Has Been Successfully Verified</string>
+    <string name="message_please_select_a_country_dial_code">Please select a Country Dial Code</string>
+    <string name="message_sending_verification_code">Sending Verification Code…</string>
+    <string name="message_something_went_wrong">Something Went Wrong. Please Try Again Later!!!</string>
+    <string name="message_thank_you" translatable="false">Thank You</string>
+    <string name="message_trip_cancelled">Trip Canceled</string>
+    <string name="message_verification_code_sent_to">Verification Code sent to</string>
+    <string name="btn_apply_promo_code" translatable="false">Apply Promo Code</string>
+    <string name="message_profile_updated_successfully">Profile Updated Successfully</string>
+    <string name="label_distance_fare">Distance Fare</string>
+    <string name="label_time_fare" translatable="false">Time Fare</string>
+    <string name="label_no_cars_available" translatable="false">No Cars Available</string>
+    <string name="lable_request" translatable="false">Request</string>
+
+    <string name="driver_name_tab" translatable="false">Driver Name</string>
+    <string name="lorem" translatable="false">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vehicula sem a malesuada rhoncus. Pellentesque ut dolor a dui porttitor porta lacinia non libero. Nunc volutpat arcu quis quam convallis molestie. Etiam ac tristique sem, id commodo justo. Phasellus congue tincidunt lectus, at dignissim ligula maximus eu. Quisque interdum nunc eget tellus bibendum suscipit. Phasellus feugiat ultricies posuere. Nullam porta accumsan velit, ut rutrum massa fermentum eu. Nunc ac bibendum nunc. Mauris eu ultricies ipsum. Ut id dolor dui. Pellentesque dictum dui vel tempus maximus. Vivamus non nisi quis libero scelerisque pretium. Ut eu tristique justo. Sed pellentesque placerat quam, ut ultricies turpis feugiat a. Aliquam a volutpat risus.
+
+        Praesent at lectus semper, suscipit elit in, facilisis massa. Phasellus sed vestibulum ante, a euismod sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin tincidunt orci augue, a porta odio lacinia eu. Nunc in congue risus. Maecenas commodo nibh ac enim fermentum, eu sagittis massa blandit. Vestibulum elementum massa nec dapibus mollis. Etiam porta, est sit amet aliquet porta, odio elit finibus risus, id rutrum purus mi non ipsum. Nulla viverra nec enim sed venenatis.
+
+        Maecenas mattis, erat et viverra euismod, neque diam porttitor tellus, in fringilla metus est id augue. Nunc at metus cursus, porttitor nisi vitae, congue diam. Curabitur ligula massa, ullamcorper eget scelerisque vel, pharetra ac sapien. Ut auctor luctus ultricies. Nullam semper tortor ac elementum luctus. In et tempus ex. Praesent sodales, dolor id volutpat elementum, ligula enim euismod odio, maximus sodales magna neque nec neque. Curabitur pretium nisl neque, consequat aliquet dui tincidunt ac. Vivamus augue nunc, aliquet eu ex a, ultrices aliquam lorem. Duis nibh lectus, ultricies vel iaculis sit amet, imperdiet id sapien. Duis scelerisque sodales metus eu rutrum. Suspendisse posuere nisi ac magna consequat, eu vestibulum ipsum venenatis. Suspendisse auctor nisi nec leo venenatis tristique.
+
+        Praesent tincidunt lorem sit amet mi consequat cursus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent vitae blandit sapien. Curabitur est sapien, lobortis sit amet facilisis vel, faucibus eu quam. Nam tempus libero at tellus tempor laoreet. Pellentesque quam lorem, tincidunt in molestie eget, dictum vel risus. Nunc gravida convallis mattis.
+    </string>
+    <string name="driver_address" translatable="false">House 17/A, 2nd floor, Road 126  Gulshan-1, Dhaka-1212, Bangladesh</string>
+    <string name="main_balance">Main Balance</string>
+    <string name="usable_balance">Usable Balance</string>
+    <string name="commission">Commission</string>
+
+    <!-- dimensions -->
+    <dimen name="image_width">120dp</dimen>
+    <dimen name="drawer_image_width">80dp</dimen>
+    <dimen name="image_final_width">32dp</dimen>
+    <dimen name="spacing_normal">16dp</dimen>
+
+    <string name="btn_service" translatable="false">Service</string>
+    <string name="btn_driver" translatable="false">Driver</string>
+    <string name="btn_car" translatable="false">Car</string>
+    <string name="btn_bike" translatable="false">Bike</string>
+    <string name="btn_ambulance" translatable="false">Ambulance</string>
+    <string name="btn_profile">Profile</string>
+    <string name="btn_trip_history">Your Trips</string>
+    <string name="btn_wallet" translatable="false">Wallet</string>
+    <string name="btn_apply_for" translatable="false">Apply For</string>
+    <string name="btn_sim" translatable="false">Sim Card</string>
+    <string name="btn_card" translatable="false">Bank Card</string>
+    <string name="btn_logout">Log Out</string>
+
+    <string name="speed" translatable="false">50 km/h</string>
+    <string name="pick_up_rate" translatable="false">50 tk</string>
+    <string name="driver_trip">Trip</string>
+    <string name="driver_rating">Rating</string>
+    <string name="Year">Years</string>
+    <string name="total_commission">Total Commission</string>
+    <string name="lost_commission">Loss Commission</string>
+    <string name="daily_target">Daily Target</string>
+    <string name="weekly_target">Weekly Target</string>
+
+    <string name="open" translatable="false">Open</string>
+    <string name="close" translatable="false">Close</string>
+
+    <string name="update_message" translatable="false">A new version of Auto Ride Driver is available. Please update to versions</string>
+    <string name="btn_update_available" translatable="false">Update</string>
+    <string name="update_available" translatable="false">Update Available</string>
+
+    <string name="server_not_response" translatable="false">Server Not Response</string>
+    <string name="location_permission" translatable="false">Please Provide the Permission</string>
+    <string name="pickup_point" translatable="false">Pick point not found</string>
+    <string name="back_press">Press back again to exist</string>
+
+    <string name="title_activity_driver_wallet" translatable="false">Driver Wallet</string>
+    <string name="title_activity_driver_apply_sim_card" translatable="false">Driver Apply Sim Card</string>
+    <string name="title_activity_driver_apply_bank_card" translatable="false">Driver Apply Bank Card</string>
+    <string name="title_activity_driver_tracking">Routing</string>
+
+    <string name="tv_first_name">First Name</string>
+    <string name="tv_last_name">Last Name</string>
+    <string name="tv_email">Email</string>
+    <string name="tv_address">Address</string>
+    <string name="tv_phone">Phone</string>
+
+    <string name="et_hint_house">House</string>
+    <string name="et_hint_road">Road</string>
+    <string name="et_hint_unit">Unit</string>
+    <string name="et_hint_fax">Fax</string>
+    <string name="et_hint_zip_code">Zip Code</string>
+    <string name="et_hint_city">City</string>
+    <string name="et_hint_country">Country</string>
+
+    <string name="text_btn_waiting">Waiting…</string>
+
+    <string name="tv_documents">Document Settings</string>
+    <string name="tv_vehicle_info_msg">Please provide all vehicle information</string>
+    <string name="tv_vehicle_info_btn_msg">Make sure your Vehicle Information is up to date</string>
+    <string name="spinner_vehicle_type">Please select a vehicle</string>
+    <string name="et_vehicle_brand">Vehicle Brand is required</string>
+    <string name="et_vehicle_model">Vehicle Model is required</string>
+    <string name="et_vehicle_no">Vehicle Registration number is required</string>
+
+    <string name="et_vehicle1">Vehicle Brand should be in 3 to 30 characters</string>
+    <string name="et_vehicle2">Vehicle Model should be in 3 to 30 characters</string>
+    <string name="et_vehicle3">Vehicle Registration number should be in 3 to 35 characters</string>
+
+    <string name="tv_vehicle_type">Vehicle Type</string>
+    <string name="tv_vehicle_brand">Vehicle Brand</string>
+    <string name="tv_vehicle_model">Vehicle Model</string>
+    <string name="tv_vehicle_no">Vehicle Registration Number</string>
+    <string name="change_pass">Change Password</string>
+
+    <string name="et_vehicle_model_hint">Enter vehicle model</string>
+    <string name="et_vehicle_brand_hint">Enter vehicle brand</string>
+    <string name="et_vehicle_no_hint">Enter vehicle registration number</string>
+    <string name="et_change_pass_hint">Enter current password</string>
+    <string name="et_change_new_pass_hint">Enter a new password</string>
+
+    <string name="btn_vehicle_photo">Vehicle Photo</string>
+    <string name="btn_driving_license">Driving License</string>
+    <string name="btn_vehicle_insurance">Vehicle Insurance</string>
+    <string name="btn_vehicle_blue_book">Vehicle Blue Book</string>
+    <string name="btn_vehicle_tax_token">Vehicle Tax Token</string>
+    <string name="btn_vehicle_info">Vehicle Information</string>
+
+    <string name="btn_active" translatable="false">Active</string>
+    <string name="btn_inactive" translatable="false">Inactive</string>
+    <string name="btn_retake">Retake</string>
+    <string name="btn_take_photo">Take Photo</string>
+    <string name="btn_navigate">Navigate</string>
+
+    <string name="tv_choose_msg">Please upload documents by choosing a picture</string>
+    <string name="tv_sure_msg">Make sure we can easily read all the documents</string>
+
+    <string name="btn_decline">Decline</string>
+    <string name="btn_accept">Accept</string>
+    <string name="btn_pickup">Pickup</string>
+    <string name="btn_pickup2">PICK UP</string>
+    <string name="btn_drop_off">DropOff</string>
+    <string name="btn_start_trip">Start Trip</string>
+
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="no_gps_connection">No GPS Connection</string>
+    <string name="slow_internet_connection">Slow Internet Connection Detected</string>
+
+    <string name="title_activity_driver_login">DRIVER LOGIN</string>
+    <string name="title_activity_driver_forgot">DRIVER RECOVER PASSWORD</string>
+    <string name="title_activity_driver_registration">DRIVER REGISTRATION</string>
+    <string name="title_activity_driver_settings">PROFILE SETTINGS</string>
+    <string name="title_activity_driver_document">DOCUMENTS</string>
+
+    <string name="simple_activity_transition" translatable="false">simple_activity_transition</string>
+    <string name="simple_fragment_transition" translatable="false">simple_fragment_transition</string>
+
+    <string name="lion" translatable="false">Lion</string>
+    <string name="pig" translatable="false">Pig</string>
+    <string name="gorilla" translatable="false">Gorilla</string>
+    <string name="fox" translatable="false">Fox</string>
+    <string name="armadillo" translatable="false">Armadillo</string>
+    <string name="tiger" translatable="false">Tiger</string>
+    <string name="starfish" translatable="false">Starfish</string>
+    <string name="giraffe" translatable="false">Giraffe</string>
+
+    <string name="lion_blurb" translatable="false">The lion (Panthera leo) is one of the big cats in the genus Panthera and a member of the family Felidae. The commonly used term African lion collectively denotes the several subspecies in Africa. With some males exceeding 250 kg (550 lb) in weight, it is the second-largest living cat after the tiger.</string>
+    <string name="gorilla_blurb" translatable="false" tools:ignore="PluralsCandidate">Gorillas are ground-dwelling, predominantly herbivorous apes that inhabit the forests of central Africa. The eponymous genus Gorilla is divided into two species: the eastern gorillas and the western gorillas (both critically endangered), and either four or five subspecies. They are the largest living primates. The DNA of gorillas is highly similar to that of humans, from 95–99% depending on what is counted, and they are the next closest living relatives to humans after the chimpanzees and bonobos.</string>
+    <string name="tiger_blurb" translatable="false">The tiger (Panthera tigris) is the largest cat species, most recognisable for their pattern of dark vertical stripes on reddish-orange fur with a lighter underside. The species is classified in the genus Panthera with the lion, leopard, jaguar and snow leopard. Tigers are apex predators, primarily preying on ungulates such as deer and bovids. They are territorial and generally solitary but social animals, often requiring large contiguous areas of habitat that support their prey requirements.</string>
+    <string name="giraffe_blurb" translatable="false">The giraffe (Giraffa) is a genus of African even-toed ungulate mammals, the tallest living terrestrial animals and the largest ruminants. The genus consists of eleven species including Giraffa camelopardalis, the type species. Seven of these species are extinct, prehistoric species known from fossils, while four are still extant.</string>
+    <string name="fox_blurb" translatable="false">Foxes are small-to-medium-sized, omnivorous mammals belonging to several genera of the family Canidae. Foxes are slightly smaller than a medium-size domestic dog, with a flattened skull, upright triangular ears, a pointed, slightly upturned snout, and a long bushy tail (or brush). Twelve species belong to the monophyletic group of Vulpes genus of "true foxes".</string>
+    <string name="armadillo_blurb" translatable="false">Armadillos are New World placental mammals with a leathery armour shell. The Chlamyphoridae and Dasypodidae are the only surviving families in the order Cingulata, part of the superorder Xenarthra, along with the anteaters and sloths. The word armadillo means "little armoured one" in Spanish.</string>
+    <string name="dog_blurb" translatable="false">The domestic dog (Canis lupus familiaris or Canis familiaris) is a member of genus Canis (canines) that forms part of the wolf-like canids, and is the most widely abundant carnivore. The dog and the extant gray wolf are sister taxa, with modern wolves not closely related to the wolves that were first domesticated. The dog was the first domesticated species and has been selectively bred over millennia for various behaviors, sensory capabilities, and physical attributes</string>
+    <string name="penguin_blurb" translatable="false">Penguins (order Sphenisciformes, family Spheniscidae) are a group of aquatic, flightless birds. They live almost exclusively in the Southern Hemisphere, with only one species, the Galapagos penguin, found north of the equator. Highly adapted for life in the water, penguins have countershaded dark and white plumage, and their wings have evolved into flippers. Most penguins feed on krill, fish, squid and other forms of sealife caught while swimming underwater. They spend about half of their lives on land and half in the oceans.Although almost all penguin species are native to the Southern Hemisphere, they are not found only in cold climates, such as Antarctica. In fact, only a few species of penguin live so far south. Several species are found in the temperate zone, and one species, the Galápagos penguin, lives near the equator.</string>
+    <string name="eagle_blurb" translatable="false">Eagles are large, powerfully built birds of prey, with heavy heads and beaks. Even the smallest eagles, such as the booted eagle (Aquila pennata), which is comparable in size to a common buzzard (Buteo buteo) or red-tailed hawk (B. jamaicensis), have relatively longer and more evenly broad wings, and more direct, faster flight – despite the reduced size of aerodynamic feathers. Most eagles are larger than any other raptors apart from some vultures. The smallest species of eagle is the South Nicobar serpent eagle (Spilornis klossi), at 450 g (0.99 lb) and 40 cm (16 in). The largest species are discussed below. Like all birds of prey, eagles have very large, hooked beaks for ripping flesh from their prey, strong, muscular legs, and powerful talons. The beak is typically heavier than that of most other birds of prey. Eagles\' eyes are extremely powerful, having up to 3.6 times human acuity for the martial eagle, which enables them to spot potential prey from a very long distance.[2] This keen eyesight is primarily attributed to their extremely large pupils which ensure minimal diffraction (scattering) of the incoming light. The female of all known species of eagles is larger than the male.</string>
+    <string name="rabbit_blurb" translatable="false">Rabbits are small mammals in the family Leporidae of the order Lagomorpha, found in several parts of the world. There are eight different genera in the family classified as rabbits, including the European rabbit (Oryctolagus cuniculus), cottontail rabbits (genus Sylvilagus; 13 species), and the Amami rabbit (Pentalagus furnessi, an endangered species on Amami Ōshima, Japan). There are many other species of rabbit, and these, along with pikas and hares, make up the order Lagomorpha. The male is called a buck and the female is a doe; a young rabbit is a kitten or kit.</string>
+    <string name="dolphin_blurb" translatable="false">Dolphins are a widely distributed and diverse group of aquatic mammals. They are an informal grouping within the order Cetacea, excluding whales and porpoises, so to zoologists the grouping is paraphyletic. The dolphins comprise the extant families Delphinidae (the oceanic dolphins), Platanistidae (the Indian river dolphins), Iniidae (the new world river dolphins), and Pontoporiidae (the brackish dolphins), and the extinct Lipotidae (baiji or Chinese river dolphin). There are 40 extant species of dolphins. Dolphins, alongside other cetaceans, belong to the clade Cetartiodactyla with even-toed ungulates. Their closest living relatives are the hippopotamuses, having diverged about 40 million years ago.</string>
+    <string name="snek_blurb" translatable="false">Snakes are elongated, legless, carnivorous reptiles of the suborder Serpentes[2] that can be distinguished from legless lizards by their lack of eyelids and external ears. Like all squamates, snakes are ectothermic, amniote vertebrates covered in overlapping scales. Many species of snakes have skulls with several more joints than their lizard ancestors, enabling them to swallow prey much larger than their heads with their highly mobile jaws. To accommodate their narrow bodies, snakes\' paired organs (such as kidneys) appear one in front of the other instead of side by side, and most have only one functional lung. Some species retain a pelvic girdle with a pair of vestigial claws on either side of the cloaca.</string>
+    <string name="seal_blurb" translatable="false">Pinnipeds (/ˈpɪnᵻˌpɛdz/) (from Latin pinna "fin" and pes, pedis "foot"[2]), commonly known as seals,[a] are a widely distributed and diverse clade of carnivorous, fin-footed, semiaquatic marine mammals. They comprise the extant families Odobenidae (whose only living member is the walrus), Otariidae (the eared seals: sea lions and fur seals), and Phocidae (the earless seals, or true seals). There are 33 extant species of pinnipeds, and more than 50 extinct species have been described from fossils. While seals were historically thought to have descended from two ancestral lines, molecular evidence supports them as a monophyletic lineage (descended from one ancestral line). Pinnipeds belong to the order Carnivora and their closest living relatives are bears and musteloids (weasels, raccoons, skunks and red pandas), having diverged about 50 million years ago.</string>
+    <string name="rhino_blurb" translatable="false">A rhinoceros (/raɪˈnɒsərəs/, meaning "nose horn"), often abbreviated to rhino, is one of any five extant species of odd-toed ungulates in the family Rhinocerotidae, as well as any of the numerous extinct species. Two of these extant species are native to Africa and three to Southern Asia./nMembers of the rhinoceros family are characterized by their large size (they are some of the largest remaining megafauna, with all of the species able to reach one tonne or more in weight); as well as by an herbivorous diet; a thick protective skin, 1.5–5 cm thick, formed from layers of collagen positioned in a lattice structure; relatively small brains for mammals this size (400–600 g); and a large horn. They generally eat leafy material, although their ability to ferment food in their hindgut allows them to subsist on more fibrous plant matter, if necessary. Unlike other perissodactyls, the two African species of rhinoceros lack teeth at the front of their mouths, relying instead on their lips to pluck food.</string>
+    <string name="leopard_blurb" translatable="false">The leopard (Panthera pardus) /ˈlɛpərd/ is one of the five "big cats" in the genus Panthera. It is a member of the family Felidae with a wide range in sub-Saharan Africa and parts of Asia. Fossil records found in Italy suggest that in the Pleistocene it occurred in Europe and Japan. \nCompared to other members of Felidae, the leopard has relatively short legs and a long body with a large skull. It is similar in appearance to the jaguar, but has a smaller, lighter physique. Its fur is marked with rosettes similar to those of the jaguar, but the leopard\'s rosettes are smaller and more densely packed, and do not usually have central spots as the jaguar\'s do. Both leopards and jaguars that are melanistic are known as black panthers.</string>
+    <string name="hippo_blurb" translatable="false">The common hippopotamus (Hippopotamus amphibius), or hippo, is a large, mostly herbivorous mammal in sub-Saharan Africa, and one of only two extant species in the family Hippopotamidae, the other being the pygmy hippopotamus (Choeropsis liberiensis or Hexaprotodon liberiensis). The name comes from the ancient Greek for "river horse" (ἱπποπόταμος). After the elephant and rhinoceros, the common hippopotamus is the third-largest type of land mammal and the heaviest extant artiodactyl. Despite their physical resemblance to pigs and other terrestrial even-toed ungulates, the closest living relatives of the Hippopotamidae are cetaceans (whales, porpoises, etc.) from which they diverged about 55 million years ago. The common ancestor of whales and hippos split from other even-toed ungulates around 60 million years ago. The earliest known hippopotamus fossils, belonging to the genus Kenyapotamus in Africa, date to around 16 million years ago.</string>
+    <string name="pig_blurb" translatable="false">A pig is any of the animals in the genus Sus, within the Suidae family of even-toed ungulates. Pigs include the domestic pig and its ancestor, the common Eurasian wild boar (Sus scrofa), along with other species; related creatures outside the genus include the peccary, the babirusa, and the warthog. Pigs, like all suids, are native to the Eurasian and African continents. Juvenile pigs are known as piglets. Pigs are highly social and intelligent animals.</string>
+    <string name="starfish_blurb" translatable="false">Starfish or sea stars are star-shaped echinoderms belonging to the class Asteroidea. Common usage frequently finds these names being also applied to ophiuroids, which are correctly referred to as brittle stars or "basket stars". About 1,500 species of starfish occur on the seabed in all the world\'s oceans, from the tropics to frigid polar waters. They are found from the intertidal zone down to abyssal depths, 6,000 m (20,000 ft) below the surface.</string>
+    <string name="owl_blurb" translatable="false">Owls are birds from the order Strigiformes, which includes about 200 species of mostly solitary and nocturnal birds of prey typified by an upright stance, a large, broad head, binocular vision, binaural hearing, sharp talons, and feathers adapted for silent flight. Exceptions include the diurnal northern hawk-owl and the gregarious burrowing owl.</string>
+    <string name="snackbar_name" translatable="false">Get Data at logcat !</string>
+    <string name="no_internet" translatable="false">No Internet Connection !</string>
+    <string name="internet_connected" translatable="false">Internet Connected !</string>
+    <string name="btn_setting" translatable="false">SETTING!</string>
+
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="btn_reference">My Partner</string>
+
+    <string name="FACEBOOK_APP_ID" translatable="false">930585330440183</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN" translatable="false">4ee1e31e8fe5832cd7f280c1eeb2fda8</string>
+    <string name="logPhoNum" translatable="false">LOGIN WITH PHONE NUMBER</string>
+    <string name="FacebookAuth" translatable="false">FacebookAuth</string>
+    <string name="WebAuth" translatable="false">Web Authentication</string>
+
+    <!-- bangla -->
+    <string name="message">Message</string>
+    <string name="tv_on_test">On Test</string>
+    <string name="tv_emergency">Emergency Call to 999</string>
+    <string name="txt_on_off1">Going online…</string>
+    <string name="txt_on_off2">active</string>
+    <string name="txt_on_off3">Going offline…</string>
+    <string name="txt_on_off4">inactive</string>
+    <string name="txt_on_off5">Online</string>
+    <string name="txt_on_off6">Offline</string>
+    <string name="txt_progress">Please waiting…</string>
+    <string name="txt_allow_phone">Allow phone call?</string>
+    <string name="txt_allow">Allow</string>
+    <string name="txt_deny">Deny</string>
+    <string name="txt_profile1">Account Number (</string>
+    <string name="txt_profile2">Promotion Code (</string>
+    <string name="txt_touch_point">Touch Point</string>
+    <string name="txt_profile3">Brand</string>
+    <string name="txt_profile4">Model</string>
+    <string name="txt_profile5">Registration No</string>
+    <string name="txt_profile6">House :</string>
+    <string name="txt_profile7">, Road :</string>
+    <string name="txt_profile8">, Unit :</string>
+    <string name="txt_profile9">, Fax :</string>
+    <string name="txt_profile10">, ZipCode :</string>
+    <string name="txt_profile11">, City :</string>
+    <string name="txt_profile12">, Country :</string>
+    <string name="txt_trips1">Your Trips</string>
+    <string name="txt_trips2">Trip Details</string>
+    <string name="txt_trips3">Your trip with</string>
+    <string name="txt_trips4">Help</string>
+    <string name="txt_no_ride1">You haven\'t taken a trip yet!</string>
+    <string name="txt_no_ride2">Something Went Wrong.</string>
+    <string name="web_error_msg2">Something Went Wrong. Please Try Again Later!</string>
+    <string name="txt_taka">Tk</string>
+    <string name="txt_pay_type">Cash</string>
+    <string name="txt_receipt_title1" translatable="false">Auto Ride</string>
+    <string name="txt_receipt_title2">Receipts</string>
+    <string name="txt_fare1">Base Fare</string>
+    <string name="txt_fare2">Distance Fare</string>
+    <string name="txt_fare3">Time Fare</string>
+    <string name="txt_fare4">Fare Subtotal</string>
+    <string name="txt_fare5">Fare Discount</string>
+    <string name="txt_fare6">Fare Total</string>
+    <string name="txt_fare7">Fare Rounding</string>
+    <string name="txt_fare8">Fare Total to pay</string>
+    <string name="title_settings1">EDIT PROFILE IMAGE</string>
+    <string name="title_settings2">EDIT LAST NAME</string>
+    <string name="title_settings3">EDIT EMAIL</string>
+    <string name="title_settings4">EDIT ADDRESS</string>
+    <string name="title_settings5">CHANGE PASSWORD</string>
+    <string name="title_settings6">Phone number unable to edit</string>
+    <string name="title_settings7">EDIT FIRST NAME</string>
+    <string name="txt_photo1">Photo</string>
+    <string name="txt_photo2">Select from Gallery</string>
+    <string name="txt_photo3">Take from Camera</string>
+    <string name="txt_log_out">Are sure want to Log Out?</string>
+    <string name="txt_doc1">Driver\'s Vehicle Photo</string>
+    <string name="txt_doc2">VEHICLE PHOTO</string>
+    <string name="txt_doc3">DRIVING LICENSE</string>
+    <string name="txt_doc4">VEHICLE INSURANCE</string>
+    <string name="txt_doc5">BLUE BOOK</string>
+    <string name="txt_doc6">TAX TOKEN</string>
+    <string name="txt_doc7">VEHICLE INFORMATION</string>
+    <string name="txt_doc8">Select vehicle</string>
+    <string name="txt_req1">Time\'s up!</string>
+    <string name="txt_req2">Cancel Request</string>
+    <string name="txt_req3">Are sure want to cancel request?</string>
+    <string name="txt_req4">Yes</string>
+    <string name="txt_req5">No</string>
+    <string name="txt_req6">Trip Running</string>
+    <string name="txt_req7">Trip Finalize</string>
+    <string name="txt_req8">Confirm You\'ve Arrived</string>
+    <string name="txt_req9">Rider notified</string>
+    <string name="txt_req10">Cash payment trip</string>
+    <string name="txt_req11">Collect Cash</string>
+    <string name="txt_req12">At the end of the trip</string>
+    <string name="txt_req13">Complete Trip</string>
+    <string name="txt_req14">Rider Pays</string>
+    <string name="txt_req15">Trip fare</string>
+    <string name="txt_req16">Minimum Fare</string>
+    <string name="txt_req17">Fare Per Minute</string>
+    <string name="txt_req18">Fare Per Kilometer</string>
+    <string name="txt_req19">Usable Discount</string>
+    <string name="txt_req20">Distance</string>
+    <string name="txt_req21">Time</string>
+    <string name="txt_req22">Cash Collected</string>
+    <string name="txt_req23">Call</string>
+    <string name="txt_req24">CANCEL TRIP</string>
+    <string name="txt_req28">CONTACT</string>
+    <string name="txt_req29" tools:ignore="ButtonCase">CANCEL</string>
+    <string name="txt_req30">Are sure want to complete the trip?</string>
+    <string name="txt_req31">DROP OFF</string>
+    <string name="txt_req32">Cancel Trip</string>
+    <string name="txt_req33">Are sure want to Cancel the trip?\nYou may be partially charged</string>
+
+    <string name="txt_map1">Map None</string>
+    <string name="txt_map2">Normal Map</string>
+    <string name="txt_map3">Satellite Map</string>
+    <string name="txt_map4">Hybrid Map</string>
+    <string name="txt_map5">Terrain Map</string>
+
+    <string name="txt_set_lang1" translatable="false">English</string>
+    <string name="txt_set_lang2" translatable="false">বাংলা</string>
+
+    <string name="txt_req25">The ride was not charged</string>
+    <string name="txt_req26">Rider could not be found</string>
+    <string name="txt_req27">Ride requested cancel</string>
+
+    <string name="txt_help1">Problem with collection fare</string>
+    <string name="txt_help2">Review my revenue percentages</string>
+    <string name="txt_help3">My rider wasn\'t helpful</string>
+    <string name="txt_help4">My rider behavior was very rough</string>
+    <string name="txt_help5">I had a different issue</string>
+    <string name="email2">Email should be in 12 to 30 characters</string>
+    <string name="speed1">Waiting Time</string>
+    <string name="speed2">Waiting Bill</string>
+
+    <string name="max_speed">Max Speed</string>
+    <string name="average_speed">Average Speed</string>
+    <string name="distance">Distance</string>
+    <string name="accuracy">Accuracy</string>
+    <string name="satellite">Satellites</string>
+    <string name="waiting_for_fix">Waiting for GPS fix…</string>
+    <string name="btn_speed_meter">Speed Meter</string>
+    <string name="time">Time</string>
+    <string name="gps_disabled">GPS disabled</string>
+    <string name="running">Route in process</string>
+    <string name="please_enable_gps">Please check GPS connection</string>
+
+    <string name="noti_id" translatable="false">Speedmeterisanid</string>
+    <string name="notification" translatable="false">Max Speed : %1$s, Distance : %2$s.</string>
+    <string name="pref_auto_average" translatable="false">Automatically detect stop time.</string>
+    <string name="pref_auto_average_summary" translatable="false">The time spent at stop will not count in the average speed.</string>
+    <string name="pref_miles_per_hour" translatable="false">Use miles per hour</string>
+    <string name="pref_miles_per_hour_summary" translatable="false">Display the speed in mi/h instead of km/h</string>
+
+</resources>

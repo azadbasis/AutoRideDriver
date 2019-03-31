@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/_1sdp"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_1sdp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/civ_driver_drawer_image"
+                android:layout_width="@dimen/drawer_image_width"
+                android:layout_height="@dimen/drawer_image_width"
+                android:layout_marginBottom="@dimen/_1sdp"
+                android:background="@drawable/bg_circle"
+                app:civ_border_color="@color/white"
+                app:civ_border_width="2dp"
+                app:finalHeight="@dimen/image_final_width"
+                app:finalYPosition="2dp"
+                app:layout_behavior="org.autoride.driver.utils.AvatarImageBehavior"
+                app:startHeight="2dp"
+                app:startToolbarPosition="2dp"
+                app:startXPosition="2dp" />
+
+            <TextView
+                android:id="@+id/tv_driver_drawer_full_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:padding="@dimen/_5sdp"
+                android:singleLine="true"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:layout_marginEnd="@dimen/_1sdp">
+
+            <TextView
+                android:id="@+id/tv_driver_call_999"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_1sdp"
+                android:layout_marginEnd="@dimen/_2sdp"
+                android:layout_marginStart="@dimen/_2sdp"
+                android:drawableRight="@drawable/vect9"
+                android:gravity="center"
+                android:onClick="onCallTo999"
+                android:padding="@dimen/_3sdp"
+                android:paddingEnd="@dimen/_10sdp"
+                android:paddingStart="@dimen/_40sdp"
+                android:singleLine="true"
+                android:text="@string/tv_emergency"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

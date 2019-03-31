@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/location_icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_light"
+        android:foregroundGravity="center"
+        android:paddingBottom="3dp"
+        android:paddingTop="3dp"
+        android:scaleType="center"
+        app:srcCompat="@drawable/icon_location" />
+
+    <TextView
+        android:id="@+id/tv_net_alert_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:padding="3dp"
+        android:text="@string/message"
+        android:textColor="#ff000000"
+        android:textSize="17sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingBottom="3dp">
+
+        <Button
+            android:id="@+id/btn_refresh"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="70dp"
+            android:text="@string/btn_refresh"
+            android:textAllCaps="false"
+            android:textColor="#ff000000"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_settings"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_settings"
+            android:textAllCaps="false"
+            android:textColor="#ff000000"
+            android:textSize="18sp" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/drawer_btn_profile"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:drawableEnd="@drawable/vect"
+        android:drawablePadding="20dp"
+        android:drawableStart="@drawable/vect1"
+        android:onClick="onDriverProfile"
+        android:paddingEnd="40dp"
+        android:text="@string/btn_profile"
+        android:textAlignment="textStart"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/drawer_btn_trip_history"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:drawableEnd="@drawable/vect"
+        android:drawablePadding="20dp"
+        android:drawableStart="@drawable/vect2"
+        android:onClick="onTripHistory"
+        android:paddingEnd="40dp"
+        android:text="@string/btn_trip_history"
+        android:textAlignment="textStart"
+        android:textAllCaps="false" />
+
+    <Button
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:drawableEnd="@drawable/ic_chevron_right_black_24dp"
+        android:drawablePadding="20dp"
+        android:drawableStart="@drawable/ic_av_timer_black_24dp"
+        android:onClick="getDriverSpeed"
+        android:paddingEnd="50dp"
+        android:text="@string/btn_speed_meter"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:visibility="gone" />
+
+    <Button
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:drawableEnd="@drawable/vect"
+        android:drawablePadding="20dp"
+        android:drawableStart="@drawable/vect3"
+        android:onClick="onDriverSettings"
+        android:paddingEnd="40dp"
+        android:text="@string/btn_settings"
+        android:textAlignment="textStart"
+        android:textAllCaps="false" />
+
+    <Button
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:drawableEnd="@drawable/vect"
+        android:drawablePadding="20dp"
+        android:drawableStart="@drawable/vect4"
+        android:onClick="onDriverDocument"
+        android:paddingEnd="40dp"
+        android:text="@string/btn_document"
+        android:textAlignment="textStart"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_reference"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:drawableEnd="@drawable/vect"
+        android:drawablePadding="20dp"
+        android:drawableStart="@drawable/vect5"
+        android:onClick="onMyPartner"
+        android:paddingEnd="40dp"
+        android:text="@string/btn_reference"
+        android:textAlignment="textStart"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_lang_changer"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:drawablePadding="20dp"
+        android:drawableStart="@drawable/vect10"
+        android:paddingEnd="40dp"
+        android:textAlignment="textStart"
+        android:textAllCaps="false" />
+
+    <Button
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:drawablePadding="20dp"
+        android:drawableStart="@drawable/vect6"
+        android:onClick="onLogout"
+        android:paddingEnd="40dp"
+        android:text="@string/btn_logout"
+        android:textAlignment="textStart"
+        android:textAllCaps="false" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:layout_margin="@dimen/_20sdp"
+            android:text="@string/tv_on_test"
+            android:textAlignment="center"
+            android:textSize="17sp" />
+    </android.support.v7.widget.CardView>
+</LinearLayout>

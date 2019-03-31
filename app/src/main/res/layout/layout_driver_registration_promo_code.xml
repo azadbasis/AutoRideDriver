@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout style="@style/RegistrationParent">
+
+            <LinearLayout style="@style/RegistrationTitleParent">
+
+                <ImageView
+                    style="@style/TitleImageStyle"
+                    app:srcCompat="@drawable/ic_title_password" />
+
+                <TextView
+                    style="@style/RegistrationTitleLabel"
+                    android:text="@string/promo_code" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/et_driver_registration_promo_code"
+                style="@style/RegistrationInputBox"
+                android:hint="@string/enter_promo_code"
+                android:inputType="number" />
+        </LinearLayout>
+    </ScrollView>
+
+    <android.support.design.widget.FloatingActionButton
+        style="@style/RegistrationFAB"
+        android:onClick="onDriverRegistrationPromoCode"
+        app:backgroundTint="@color/colorPrimary"
+        app:fabSize="normal"
+        app:srcCompat="@drawable/ic_arrow_registration" />
+</FrameLayout>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_doc">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_55sdp"
+                android:paddingEnd="@dimen/_20sdp"
+                android:paddingStart="@dimen/_25sdp"
+                android:paddingTop="@dimen/_17sdp"
+                android:text="@string/tv_documents"
+                android:textSize="@dimen/doc_btn_text_size1" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/view_height"
+                android:background="@color/gray_1" />
+
+            <Button
+                style="?borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50sdp"
+                android:background="@color/color_doc2"
+                android:drawableEnd="@drawable/ic_chevron_right_black_24dp"
+                android:onClick="onDriverVehicleImage"
+                android:paddingEnd="@dimen/_20sdp"
+                android:paddingStart="@dimen/_25sdp"
+                android:text="@string/btn_vehicle_photo"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textSize="@dimen/doc_btn_text_size" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/view_height"
+                android:background="@color/gray_1" />
+
+            <Button
+                style="?borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50sdp"
+                android:background="@color/color_doc2"
+                android:drawableEnd="@drawable/ic_chevron_right_black_24dp"
+                android:onClick="onDrivingLicenceImage"
+                android:paddingEnd="@dimen/_20sdp"
+                android:paddingStart="@dimen/_25sdp"
+                android:text="@string/btn_driving_license"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textSize="@dimen/doc_btn_text_size" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/view_height"
+                android:background="@color/gray_1" />
+
+            <Button
+                style="?borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50sdp"
+                android:background="@color/color_doc2"
+                android:drawableEnd="@drawable/ic_chevron_right_black_24dp"
+                android:onClick="onVehicleInsuranceImage"
+                android:paddingEnd="@dimen/_20sdp"
+                android:paddingStart="@dimen/_25sdp"
+                android:text="@string/btn_vehicle_insurance"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textSize="@dimen/doc_btn_text_size" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/view_height"
+                android:background="@color/gray_1" />
+
+            <Button
+                style="?borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50sdp"
+                android:background="@color/color_doc2"
+                android:drawableEnd="@drawable/ic_chevron_right_black_24dp"
+                android:onClick="onDriverBlueBookImage"
+                android:paddingEnd="@dimen/_20sdp"
+                android:paddingStart="@dimen/_25sdp"
+                android:text="@string/btn_vehicle_blue_book"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textSize="@dimen/doc_btn_text_size" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/view_height"
+                android:background="@color/gray_1" />
+
+            <Button
+                style="?borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50sdp"
+                android:background="@color/color_doc2"
+                android:drawableEnd="@drawable/ic_chevron_right_black_24dp"
+                android:onClick="onDriverTaxTokenImage"
+                android:paddingEnd="@dimen/_20sdp"
+                android:paddingStart="@dimen/_25sdp"
+                android:text="@string/btn_vehicle_tax_token"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textSize="@dimen/doc_btn_text_size" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/view_height"
+                android:background="@color/gray_1" />
+
+            <Button
+                style="?borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50sdp"
+                android:background="@color/color_doc2"
+                android:drawableEnd="@drawable/ic_chevron_right_black_24dp"
+                android:onClick="onVehicleInformation"
+                android:paddingEnd="@dimen/_20sdp"
+                android:paddingStart="@dimen/_25sdp"
+                android:text="@string/btn_vehicle_info"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textSize="@dimen/doc_btn_text_size" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/view_height"
+                android:background="@color/gray_1" />
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

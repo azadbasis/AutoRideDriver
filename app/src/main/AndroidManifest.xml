@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="org.autoride.driver">
+
+    <!-- for screen overlay detected -->
+    <!-- <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/> -->
+    <!-- <uses-permission android:name="android.permission.WRITE_SETTINGS"/> -->
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <application
+        android:name=".app.AutoRideDriverApps"
+        android:allowBackup="true"
+        android:icon="@drawable/icon_auto_ride_driver"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/icon_auto_ride_driver"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".DriverSplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <meta-data
+            android:name="com.facebook.accountkit.ApplicationName"
+            android:value="@string/app_name" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/FACEBOOK_APP_ID" />
+
+        <meta-data
+            android:name="com.facebook.accountkit.ClientToken"
+            android:value="@string/ACCOUNT_KIT_CLIENT_TOKEN" />
+
+        <!-- <service -->
+        <!-- android:name=".AppsKilledStatusService" -->
+        <!-- android:stopWithTask="false" /> -->
+
+        <service android:name=".services.fcm.FcmInstanceIdService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <service android:name=".services.fcm.FcmMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <service
+            android:name=".rider.request.service.DistanceService"
+            android:exported="false" />
+
+        <service android:name=".SpeedMeter.service.GpsServices" />
+
+        <service
+            android:name=".SpeedMeter.service.BackService"
+            android:exported="false" />
+
+        <service
+            android:name=".SpeedMeter.service.LocationMonitoringService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <receiver
+            android:name=".utils.reference.receiver.NetworkConnectionReciever"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="org.autoride.driver.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/image_paths" />
+        </provider>
+
+        <activity
+            android:name=".activity.DriverWelcomeActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.DriverRegistrationActivity"
+            android:label="@string/title_activity_driver_registration"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.DriverLoginActivity"
+            android:label="@string/title_activity_driver_login"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.DriverForgetActivity"
+            android:label="@string/title_activity_driver_forgot"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".DriverMainActivity"
+            android:label=""
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".settings.DriverSettingsActivity"
+            android:label="@string/title_activity_driver_settings"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".profiles.DriverProfileActivity"
+            android:label=""
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".documents.DriverDocumentActivity"
+            android:label="@string/title_activity_driver_document"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".rider.request.RiderRideRequestActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".rider.request.DriverTracking"
+            android:label="@string/title_activity_driver_tracking"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".autorideReference.ReferenceActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".facebookRegistration.FacebookAuthActivity"
+            android:label="@string/title_activity_driver_registration"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.facebook.accountkit.ui.AccountKitActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppLoginTheme"
+            tools:replace="android:theme" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+
+        <activity
+            android:name=".webRegistration.WebRegistrationActivity"
+            android:alwaysRetainTaskState="true"
+            android:label="@string/title_activity_driver_registration"
+            android:launchMode="singleInstance"
+            android:parentActivityName=".activity.DriverWelcomeActivity" />
+
+        <activity
+            android:name=".SpeedMeter.SpeedMeterActivity"
+            android:configChanges="orientation|screenSize" />
+
+        <activity
+            android:name=".SpeedMeter.Settings"
+            android:configChanges="orientation|screenSize"
+            android:label=""
+            android:parentActivityName=".SpeedMeter.SpeedMeterActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SpeedMeter.SpeedMeterActivity" />
+        </activity>
+
+        <activity
+            android:name=".history.trip.TripHistoryActivity"
+            android:screenOrientation="portrait" />
+
+    </application>
+</manifest>

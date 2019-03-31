@@ -1,0 +1,79 @@
+{
+  "project_info": {
+    "project_number": "544415159385",
+    "firebase_url": "https://auto-ride-driver.firebaseio.com",
+    "project_id": "auto-ride-driver",
+    "storage_bucket": "auto-ride-driver.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544415159385:android:732d40e43903844a",
+        "android_client_info": {
+          "package_name": "org.autoride.driver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "544415159385-5en5a4c5g0ou4r536ltjq7ta7pjucghf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.autoride.driver",
+            "certificate_hash": "a8489bb411c326243160b6496ee72e3770972b31"
+          }
+        },
+        {
+          "client_id": "544415159385-5uia56v17uhf8fpfoga2385u03dnmki5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.autoride.driver",
+            "certificate_hash": "fd140bfa750b45c2a2f65b5ea61dbba3d6ff3ca2"
+          }
+        },
+        {
+          "client_id": "544415159385-f48vs65glsahim9h1cvetdklaunjpb1o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.autoride.driver",
+            "certificate_hash": "6ef306511d65fc4937faff8cbcca381f73c953a5"
+          }
+        },
+        {
+          "client_id": "544415159385-6aiijn8gjbfl89oa80jlo16sg0brah9g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.autoride.driver",
+            "certificate_hash": "f064ac9fb0711fa448502596fa78887e017bc813"
+          }
+        },
+        {
+          "client_id": "544415159385-i4o3cl47ue3a4ri16rojmb4vg09l8u3g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0srKlf8Zti74kOqZFKwindx-kkcZPU78"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "544415159385-i4o3cl47ue3a4ri16rojmb4vg09l8u3g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

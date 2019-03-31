@@ -1,0 +1,22 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="profile_width">75dp</dimen>
+    <dimen name="profile_height">75dp</dimen>
+    <dimen name="drawer_width">320dp</dimen>
+
+    <dimen name="view_height">1dp</dimen>
+    <dimen name="map_dot_marker_size">12dp</dimen>
+
+    <dimen name="doc_btn_text_size1">25sp</dimen>
+    <dimen name="doc_btn_text_size">18sp</dimen>
+
+    <dimen name="tv_text_size">15sp</dimen>
+</resources>
